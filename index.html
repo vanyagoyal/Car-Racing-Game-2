@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("https://www.nascar.com/wp-content/uploads/sites/7/2019/05/2019-May-19-steveluvender-all-star-gifs-3.gif");
+    background-position: center;
+    background-size: cover;
+    border:solid aqua 20px;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+h1,h4{
+    color:gold !important;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    background-color:red;
+    width:500px;
+    height:40px;
+}
+#head {
+    background-color:pink;
+    width:400px;
+    height:55px;
+    margin-top:5px;
+    border:solid blue 5px;
+    color:red !important;
+    font-weight:bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Car Racing Game</title>
+</head>
+<body onload="add()">
+<center>
+<h1 id="head">Car racing game</h1>
+<br>
+<h1>Game Status:<span id="game_status"></span></h1>
+<canvas id="myCanvas" width="800" height="600"></canvas>
+<h4>
+	<b style="color:aqua">NOTE : </b> IF THE CARS ARE NOT VISIABLE PRESS ANY ARROW KEY
+</h4>
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
